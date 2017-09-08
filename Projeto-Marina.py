@@ -1,8 +1,12 @@
 
 # coding: utf-8
 
-# In[8]:
+# In[ ]:
 
+get_ipython().system('pip install tqdm pymongo')
+
+
+# In[ ]:
 
 import json
 import requests
@@ -14,8 +18,7 @@ from pprint import pprint
 from pymongo import MongoClient
 
 
-# In[12]:
-
+# In[ ]:
 
 '''
 site: https://painelhost.uol.com.br/myProducts.html
@@ -37,11 +40,8 @@ client = MongoClient(
 db = client.bike
 table_horarios = db.horarios
 
-table_horarios.insert_one(forum)
 
-
-# In[24]:
-
+# In[ ]:
 
 def teste(data):
     arrStacao = []
@@ -83,19 +83,17 @@ def teste(data):
 
 # In[ ]:
 
+while True:
+    with open('bike-new-age.json') as data_file:    
+        linksAll = json.load(data_file)
 
-with open('bike-new-age.json') as data_file:    
-    linksAll = json.load(data_file)
-
-listAll = []
-for i, href in zip(tqdm(range(len(linksAll["networks"]))), linksAll["networks"]):
-    responseSistema = requests.get("https://api.citybik.es"+href["href"])
-    data = responseSistema.json()
-    saveData = teste(data)
-    table_horarios.insert_one(saveData)
-    listAll.append(saveData)
-    #print(listAll)
-    #break
-
-print (datetime.datetime.now())
+    listAll = []
+    for i, href in zip(tqdm(range(len(linksAll["networks"]))), linksAll["networks"]):
+        responseSistema = requests.get("https://api.citybik.es"+href["href"])
+        data = responseSistema.json()
+        saveData = teste(data)
+        table_horarios.insert_one(saveData)
+        listAll.append(saveData)
+        #print(listAll)
+        #break
 
