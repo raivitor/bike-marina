@@ -1,0 +1,184 @@
+{
+  "networks": [
+    {
+      "href": "/v2/networks/nextbike-hamburg"
+    },
+    {
+      "href": "/v2/networks/adcb-bikeshare"
+    },
+    {
+      "href": "/v2/networks/monash-bikeshare"
+    },
+    {
+      "href": "/v2/networks/nextbike-glasgow"
+    },
+    {
+      "href": "/v2/networks/houston"
+    },
+    {
+      "href": "/v2/networks/bikebrasilia"
+    },
+    {
+      "href": "/v2/networks/cajubike"
+    },
+    {
+      "href": "/v2/networks/nextbike-munchen"
+    },
+    {
+      "href": "/v2/networks/nextbike-auckland"
+    },
+    {
+      "href": "/v2/networks/ciclosampa"
+    },
+    {
+      "href": "/v2/networks/velogo"
+    },
+    {
+      "href": "/v2/networks/bykystations-uae-dubai"
+    },
+    {
+      "href": "/v2/networks/nextbike-zagreb"
+    },
+    {
+      "href": "/v2/networks/bicicorunha"
+    },
+    {
+      "href": "/v2/networks/veturilo-stacje-sponsorskie-nextbike-veturilo"
+    },
+    {
+      "href": "/v2/networks/bilbon-bizi"
+    },
+    {
+      "href": "/v2/networks/bikesantos"
+    },
+    {
+      "href": "/v2/networks/vilnius-cyclocity"
+    },
+    {
+      "href": "/v2/networks/nextbike-frankfurt"
+    },
+    {
+      "href": "/v2/networks/bicikelj"
+    },
+    {
+      "href": "/v2/networks/norisbike-nurnberg"
+    },
+    {
+      "href": "/v2/networks/goeteborg"
+    },
+    {
+      "href": "/v2/networks/relay-atlanta"
+    },
+    {
+      "href": "/v2/networks/veloh"
+    },
+    {
+      "href": "/v2/networks/melbourne-bike-share"
+    },
+    {
+      "href": "/v2/networks/citybike-wien"
+    },
+    {
+      "href": "/v2/networks/indego"
+    },
+    {
+      "href": "/v2/networks/bycyklen"
+    },
+    {
+      "href": "/v2/networks/dublinbikes"
+    },
+    {
+      "href": "/v2/networks/grid-bike-share"
+    },
+    {
+      "href": "/v2/networks/metro-bike-share"
+    },
+    {
+      "href": "/v2/networks/bicicletar"
+    },
+    {
+      "href": "/v2/networks/mobibikes"
+    },
+    {
+      "href": "/v2/networks/bubi"
+    },
+    {
+      "href": "/v2/networks/le-velo"
+    },
+    {
+      "href": "/v2/networks/decobike-miami-beach"
+    },
+    {
+      "href": "/v2/networks/hubway"
+    },
+    {
+      "href": "/v2/networks/bikemi"
+    },
+    {
+      "href": "/v2/networks/velo-antwerpen"
+    },
+    {
+      "href": "/v2/networks/sevici"
+    },
+    {
+      "href": "/v2/networks/vlille"
+    },
+    {
+      "href": "/v2/networks/bixi-toronto"
+    },
+    {
+      "href": "/v2/networks/to-bike"
+    },
+    {
+      "href": "/v2/networks/velobleu"
+    },
+    {
+      "href": "/v2/networks/citybikes-helsinki"
+    },
+    {
+      "href": "/v2/networks/bicimad"
+    },
+    {
+      "href": "/v2/networks/ecobici-buenos-aires"
+    },
+    {
+      "href": "/v2/networks/valenbisi"
+    },
+    {
+      "href": "/v2/networks/veturilo-warszawa"
+    },
+    {
+      "href": "/v2/networks/velov"
+    },
+    {
+      "href": "/v2/networks/villo"
+    },
+    {
+      "href": "/v2/networks/velobike-moscow"
+    },
+    {
+      "href": "/v2/networks/ecobici"
+    },
+    {
+      "href": "/v2/networks/bicing"
+    },
+    {
+      "href": "/v2/networks/capital-bikeshare"
+    },
+    {
+      "href": "/v2/networks/bixi-montreal"
+    },
+    {
+      "href": "/v2/networks/divvy"
+    },
+    {
+      "href": "/v2/networks/citi-bike-nyc"
+    },
+    {
+      "href": "/v2/networks/santander-cycles"
+    },
+    {
+      "href": "/v2/networks/velib"
+    }
+  ]
+}
